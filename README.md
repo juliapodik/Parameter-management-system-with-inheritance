@@ -12,16 +12,16 @@
 ## Пример использования
 
 ### Главный экран
-![Главный экран](screenshots/main.png)
+![Главный экран](screenshots/main.jpg)
 
 ### Редактирование группы
-![Редактирование группы](screenshots/group-editor.png)
+![Редактирование группы](screenshots/group-editor.jpg)
 
 ### Наследование параметров (зелёный цвет)
-![Наследование](screenshots/inherited.png)
+![Наследование](screenshots/inherited.jpg)
 
 ### Переопределение параметра (оранжевый цвет)
-![Переопределение](screenshots/overridden.png)
+![Переопределение](screenshots/overridden.jpg)
 
 ## Установка и запуск
 
