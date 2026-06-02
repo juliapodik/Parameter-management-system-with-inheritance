@@ -29,3 +29,4 @@ git clone https://github.com/juliapodik/Parameter-management-system-with-inherit
 cd D:\my_project\backend  
 pip install fastapi uvicorn  
 py -m uvicorn api:app --reload  
+Ссылка: http://127.0.0.1:8000/
