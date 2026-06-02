@@ -26,6 +26,6 @@
 ## Установка и запуск
 
 git clone https://github.com/juliapodik/Parameter-management-system-with-inheritance.git  
-cd Parameter-management-system-with-inheritance  
-pip install -r requirements.txt  
-uvicorn main:app --reload  
+cd D:\my_project\backend
+pip install fastapi uvicorn
+py -m uvicorn api:app --reload
