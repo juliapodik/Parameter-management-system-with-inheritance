@@ -116,4 +116,6 @@ def set_element_params(id: int, params: dict):
         sql("INSERT INTO element_params (element_id, param_name, param_value) VALUES (?,?,?)", (id, name, value))
     return {"ok": True}
 
-app.mount("/", StaticFiles(directory="static", html=True), name="static")
+# ГЛАВНОЕ ИЗМЕНЕНИЕ ТУТ ↓
+frontend_path = os.path.join(os.path.dirname(__file__), "../frontend/html")
+app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
